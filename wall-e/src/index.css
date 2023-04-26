@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family:  "Comic Sans MS", "Comic Sans", cursive;;
+  background: linear-gradient(89deg, #9b5de5 0%, #00f5d4 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button{
+  cursor: pointer;
+}
