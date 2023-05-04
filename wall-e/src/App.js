@@ -102,13 +102,6 @@ class App extends Component {
         this.displayFaceBox(this.calculateFaceLocation(response))
       })
       .catch(err => console.log(err));
-
-    // const USER_ID = 'vasta_high';
-    // const PAT = '4935c5ef9a834d83ba9fc19497242650';
-    // const APP_ID = 'my-first-application';
-    // const MODEL_ID = 'face-detection';
-    // const MODEL_VERSION_ID = '45fb9a671625463fa646c3523a3087d5';
-    // const IMAGE_URL = this.state.input;
   }
 
   render() {
