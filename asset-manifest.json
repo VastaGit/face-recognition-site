@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/face-recognition-site/wall-e/static/css/main.812fefbb.css",
-    "main.js": "/face-recognition-site/wall-e/static/js/main.453e78b6.js",
-    "static/js/787.9373a362.chunk.js": "/face-recognition-site/wall-e/static/js/787.9373a362.chunk.js",
-    "static/media/logo.png": "/face-recognition-site/wall-e/static/media/logo.7eca17fd6e0787fdcbb2.png",
-    "index.html": "/face-recognition-site/wall-e/index.html",
-    "main.812fefbb.css.map": "/face-recognition-site/wall-e/static/css/main.812fefbb.css.map",
-    "main.453e78b6.js.map": "/face-recognition-site/wall-e/static/js/main.453e78b6.js.map",
-    "787.9373a362.chunk.js.map": "/face-recognition-site/wall-e/static/js/787.9373a362.chunk.js.map"
+    "main.css": "/face-recognition-site/static/css/main.812fefbb.css",
+    "main.js": "/face-recognition-site/static/js/main.f5cff459.js",
+    "static/js/787.9373a362.chunk.js": "/face-recognition-site/static/js/787.9373a362.chunk.js",
+    "static/media/logo.png": "/face-recognition-site/static/media/logo.7eca17fd6e0787fdcbb2.png",
+    "index.html": "/face-recognition-site/index.html",
+    "main.812fefbb.css.map": "/face-recognition-site/static/css/main.812fefbb.css.map",
+    "main.f5cff459.js.map": "/face-recognition-site/static/js/main.f5cff459.js.map",
+    "787.9373a362.chunk.js.map": "/face-recognition-site/static/js/787.9373a362.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.812fefbb.css",
-    "static/js/main.453e78b6.js"
+    "static/js/main.f5cff459.js"
   ]
 }
