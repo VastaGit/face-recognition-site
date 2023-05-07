@@ -8,15 +8,21 @@ const signin = require('./controllers/signin');
 const image = require('./controllers/image');
 const profile = require('./controllers/profile');
 
+// const db = knex({
+//     client: 'pg',
+//     connection: {
+//         host: '127.0.0.1',
+//         user: 'postgres',
+//         password: 'sadnightdynamite',
+//         database: 'smart-brain'
+//     }
+// })
 const db = knex({
-    client: 'pg',
+    client: 'sqlite3',
     connection: {
-        host: '127.0.0.1',
-        user: 'postgres',
-        password: 'sadnightdynamite',
-        database: 'smart-brain'
+      filename: './smart-brain.db'
     }
-})
+  });
 
 const app = express();
 

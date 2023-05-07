@@ -75,7 +75,7 @@ class App extends Component {
   onButtonSubmit = (event) => {
     this.setState({ image_url: this.state.input })
 
-      fetch('http://localhost:3000/imageurl', {
+      fetch('https://aware-pebble-nerve.glitch.me/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -85,7 +85,7 @@ class App extends Component {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('http://localhost:3000/image', {
+          fetch('https://aware-pebble-nerve.glitch.me/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

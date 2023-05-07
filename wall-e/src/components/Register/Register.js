@@ -25,7 +25,7 @@ class Register extends React.Component {
 
     onSubmitSignIn = () => {
         const {name, email, password} = this.state;
-         fetch('http://localhost:3000/register', {
+         fetch('https://aware-pebble-nerve.glitch.me/register', {
              method: 'post',
              headers: {'Content-Type': 'application/json'},
              body: JSON.stringify({
